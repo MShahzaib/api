@@ -3,37 +3,37 @@
 examples of how to deal with the api
 
 
-https://evaapi123.localtunnel.me/user/get
+http://mshahzaib.pythonanywhere.com/user/get
 {"users": []}
 
-https://evaapi123.localtunnel.me/user/add/yes & face-vec & Danish & username123 & pass123
+http://mshahzaib.pythonanywhere.com/user/add/yes & face-vec & Danish & username123 & pass123
 "{done:true}"
 
-https://evaapi123.localtunnel.me/user/get
+http://mshahzaib.pythonanywhere.com/user/get
 {"users": [[1, "yes", "face-vec", "Danish", "username123", "pass123"]]}
 
-https://evaapi123.localtunnel.me/user/del/1
+http://mshahzaib.pythonanywhere.com/user/del/1
 "{done:true}"
 
-https://evaapi123.localtunnel.me/user/get
+http://mshahzaib.pythonanywhere.com/user/get
 {"users": []}
 
 
 ###############################################################################################
 
-https://evaapi123.localtunnel.me/note/get
+http://mshahzaib.pythonanywhere.com/note/get
 {"notes": []}
 
-https://evaapi123.localtunnel.me/note/add/sendername & thisisthenote & thisisthetime & 7
+http://mshahzaib.pythonanywhere.com/note/add/sendername & thisisthenote & thisisthetime & 7
 "{done:true}"
 
-https://evaapi123.localtunnel.me/note/get
+http://mshahzaib.pythonanywhere.com/note/get
 {"notes": [[1, "sendername", "thisisthenote", "thisisthetime", 7]]}
 
-https://evaapi123.localtunnel.me/note/del/1
+http://mshahzaib.pythonanywhere.com/note/del/1
 "{done:true}"
 
-https://evaapi123.localtunnel.me/note/get
+http://mshahzaib.pythonanywhere.com/note/get
 {"notes": []}
 
 
@@ -41,19 +41,19 @@ https://evaapi123.localtunnel.me/note/get
 ###############################################################################################
 
 
-https://evaapi123.localtunnel.me/alarm/get
+http://mshahzaib.pythonanywhere.com/alarm/get
 {"alarms": []}
 
-https://evaapi123.localtunnel.me/alarm/add/thisisalarmtime & 6
+http://mshahzaib.pythonanywhere.com/alarm/add/thisisalarmtime & 6
 "{done:true}"
 
-https://evaapi123.localtunnel.me/alarm/get
+http://mshahzaib.pythonanywhere.com/alarm/get
 {"alarms": [[1, "thisisalarmtime", 6]]}
 
-https://evaapi123.localtunnel.me/alarm/del/1
+http://mshahzaib.pythonanywhere.com/alarm/del/1
 "{done:true}"
 
-https://evaapi123.localtunnel.me/alarm/get
+http://mshahzaib.pythonanywhere.com/alarm/get
 {"alarms": []}
 
 
@@ -61,33 +61,33 @@ https://evaapi123.localtunnel.me/alarm/get
 ###############################################################################################
 
 
-https://evaapi123.localtunnel.me/todo/get
+http://mshahzaib.pythonanywhere.com/todo/get
 {"todos": []}
 
-https://evaapi123.localtunnel.me/todo/add/thisisthetodo & 2
+http://mshahzaib.pythonanywhere.com/todo/add/thisisthetodo & 2
 "{done:true}"
 
-https://evaapi123.localtunnel.me/todo/get
+http://mshahzaib.pythonanywhere.com/todo/get
 {"todos": [[1, "thisisthetodo ", 2]]}
 
-https://evaapi123.localtunnel.me/todo/del/1
+http://mshahzaib.pythonanywhere.com/todo/del/1
 "{done:true}"
 
-https://evaapi123.localtunnel.me/todo/get
+http://mshahzaib.pythonanywhere.com/todo/get
 {"todos": []}
 
 ###############################################################################################
 
-https://evaapi123.localtunnel.me/reminder/get
+http://mshahzaib.pythonanywhere.com/reminder/get
 {"reminders": []}
 
-https://evaapi123.localtunnel.me/reminder/add/thisisthetime & thisisthereminder & 8
+http://mshahzaib.pythonanywhere.com/reminder/add/thisisthetime & thisisthereminder & 8
 "{done:true}"
 
-https://evaapi123.localtunnel.me/reminder/get
+http://mshahzaib.pythonanywhere.com/reminder/get
 {"reminders": [[1, "thisisthetime", "thisisthereminder", 8]]}
 
-https://evaapi123.localtunnel.me/reminder/del/1
+http://mshahzaib.pythonanywhere.com/reminder/del/1
 "{done:true}"
-https://evaapi123.localtunnel.me/reminder/get
+http://mshahzaib.pythonanywhere.com/reminder/get
 {"reminders": []}
